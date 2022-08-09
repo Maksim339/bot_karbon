@@ -4,7 +4,7 @@ from aiogram.dispatcher.filters.state import StatesGroup, State
 from aiogram import Bot, Dispatcher, types
 
 
-bot = Bot(token='1415878352:AAEIda5qJbmYNTxYLBU1LcDiTYEz64a5dHo', parse_mode=types.ParseMode.HTML)
+bot = Bot(token='', parse_mode=types.ParseMode.HTML)
 
 
 class Test(StatesGroup):
