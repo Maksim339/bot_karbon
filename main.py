@@ -52,7 +52,7 @@ async def hello(message):
     await covid(message)
 
 
-bot = Bot(token='1415878352:AAEIda5qJbmYNTxYLBU1LcDiTYEz64a5dHo', parse_mode=types.ParseMode.HTML)
+bot = Bot(token='', parse_mode=types.ParseMode.HTML)
 storage = MemoryStorage()
 dp = Dispatcher(bot, storage=storage)
 
